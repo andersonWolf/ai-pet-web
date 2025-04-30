@@ -1,11 +1,11 @@
 const CONFIG = {
     API_ENDPOINTS: {
-        message: 'http://0.0.0.0:8888/messages',
-        query: 'http://0.0.0.0:8888/query',
-        stopAndAnalysis: "http://0.0.0.0:8888/stop_and_analysis",
-        session: 'http://localhost:8888/session',
-        weather: 'http://localhost:8888/weather',
-        search: 'http://localhost:8888/search',
+        message: 'https://ai-pet-server-production.up.railway.app/messages',
+        query: 'https://ai-pet-server-production.up.railway.app/query',
+        stopAndAnalysis: "https://ai-pet-server-production.up.railway.app/stop_and_analysis",
+        session: 'https://ai-pet-server-production.up.railway.app/session',
+        weather: 'https://ai-pet-server-production.up.railway.app/weather',
+        search: 'https://ai-pet-server-production.up.railway.app/search',
         realtime: 'https://api.openai.com/v1/realtime'
         // realtime: 'https://oai-swe-demo.openai.azure.com/realtime'
     },
