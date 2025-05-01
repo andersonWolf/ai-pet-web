@@ -585,7 +585,7 @@ class App {
     }
 
     bindEvents() {
-        // UI.elements.testButton.style.display = 'none';
+        UI.elements.testButton.style.display = 'none';
         UI.elements.testButton.addEventListener('click', () => this.test());
         UI.elements.startButton.addEventListener('click', () => this.init());
         UI.elements.stopButton.addEventListener('click', () => this.stop());
